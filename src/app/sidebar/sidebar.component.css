@@ -1,0 +1,66 @@
+.side{
+   
+    height: 45px;
+    background-color: black; 
+    text-align: center;
+     padding: 10px;
+}
+
+.txt{
+   color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    margin-right: 17px;
+}
+.profile{
+    text-align: center;
+    display: flex;
+   
+    align-items: center;
+    margin-top: -16px;
+}
+.profile img{
+    width: 80px;
+    height: 100px;
+    object-fit: contain;
+    padding-right: 3px;
+    
+
+}
+.profile h4{
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    margin-bottom: 5px;
+  
+
+}
+.next h6{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: -38px;
+    padding-left: 48px;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+.pages a{
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    padding: 10px 0 0 10px;
+    font-weight: 500;
+  
+}
+.pages a:hover{
+    background-color: rgb(154, 151, 151);
+}
+mat-icon{
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
